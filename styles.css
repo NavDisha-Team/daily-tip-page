@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.language-selector {
+  text-align: right;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.language-selector select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #013A30;
+  color: #E3E3E3;
+  border-radius: 8px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-family: 'Georgia', serif;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+.tip-card {
+  background: #F0FFF6;
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 5px solid #01654B;
+  border-radius: 5px;
+}
+
+.tip-card h2 {
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  color: #01654B;
+}
+
+.tip-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+.daily-tip {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+}
+
+.daily-tip h3 {
+  font-size: 22px;
+  color: #013A30;
+  font-family: 'Georgia', serif;
+}
+
+.daily-tip p {
+  font-size: 16px;
+  color: #444;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer a {
+  color: #004A39;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
